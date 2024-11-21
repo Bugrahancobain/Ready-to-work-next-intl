@@ -15,7 +15,7 @@ Here’s the structure of the project:
 
 
 Annotated Directory Structure
-
+```
 .
 ├── app                     # Main application folder
 │   ├── [locale]            # Locale-based dynamic routing
@@ -36,7 +36,7 @@ Annotated Directory Structure
 │   ├── middleware.js       # Middleware for locale handling
 ├── next.config.mjs         # Next.js configuration
 └── README.md               # Documentation
-
+```
 Step-by-Step Setup
 
 1️⃣ Install Dependencies
