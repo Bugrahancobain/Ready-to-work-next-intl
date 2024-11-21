@@ -1,5 +1,3 @@
-Here’s a detailed and explanatory README.md file for your Next.js project using next-intl. This file explains the directory structure, installed packages, and the purpose of each configuration step. I’ve made it comprehensive for anyone new to the project.
-
 Next.js Project with next-intl for Internationalization
 
 This is a Next.js project configured with next-intl for handling internationalization (i18n). The project supports multiple languages, dynamic routing with locales, and formatting for currencies, dates, and numbers. Below, you’ll find an extensive explanation of the directory structure, installed packages, configurations, and the reasoning behind them.
@@ -241,5 +239,3 @@ This project demonstrates a scalable approach to building a multi-language websi
 	•	Support for number and date formatting using Intl.NumberFormat.
 
 Feel free to fork this repository and adapt it to your needs. 😊
-
-Let me know if you’d like to make any specific modifications! 🚀
