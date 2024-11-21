@@ -1,17 +1,17 @@
 Next.js Project with next-intl for Internationalization
 
-This is a Next.js project configured with next-intl for handling internationalization (i18n). The project supports multiple languages, dynamic routing with locales, and formatting for currencies, dates, and numbers. Below, you’ll find an extensive explanation of the directory structure, installed packages, configurations, and the reasoning behind them.
+This is a Next.js project configured with next-intl to support multi-language functionality, including dynamic routing, currency formatting, and date localization.
 
 Features
 
-	•	Multi-language support (en, tr).
-	•	Dynamic routing for locale-based pages (e.g., /en/about or /tr/about).
-	•	Currency and date formatting based on locale using Intl.NumberFormat.
-	•	Clean and scalable project structure.
+	•	🌐 Multi-language support (en, tr).
+	•	🔄 Dynamic routing for locale-based pages (e.g., /en/about, /tr/about).
+	•	💰 Currency formatting based on locale (e.g., €, $, ₺).
+	•	📅 Date and number formatting with Intl.NumberFormat.
 
 Directory Structure
 
-Here’s how the project is structured:
+Here’s the structure of the project:
 
 .
 ├── app
@@ -28,77 +28,39 @@ Here’s how the project is structured:
 ├── messages
 │   ├── en.json
 │   └── tr.json
-├── public
 ├── src
 │   ├── i18n.js
 │   ├── middleware.js
-├── .gitignore
-├── package.json
 ├── next.config.mjs
 └── README.md
 
-Explanation of Folders and Files
-
-	1.	app/[locale]
-	•	This folder contains localized routes (e.g., /en, /tr).
-	•	Each route can have its own page.js file and child folders for subroutes.
-	•	layout.js defines the shared layout for all pages under [locale].
-	2.	components
-	•	Contains reusable UI components such as Navbar.js.
-	3.	messages
-	•	Stores translation JSON files (e.g., en.json for English and tr.json for Turkish).
-	•	Each file contains translations for the app.
-	4.	src/i18n.js
-	•	Initializes next-intl and defines how messages are retrieved and provided.
-	5.	src/middleware.js
-	•	Configures middleware to handle locale-based routing.
-	6.	next.config.mjs
-	•	Configures Next.js settings, including supported locales and default locale.
-	7.	public
-	•	Used for static assets (images, fonts, etc.).
-
-Installed Packages
-
-Here are the main packages used in this project and why they were installed:
-
-Dependencies
-
-	1.	next
-	•	Core framework for building server-rendered React applications.
-	2.	next-intl
-	•	Handles internationalization (i18n), including message translations and locale-aware formatting.
-	3.	react and react-dom
-	•	Core libraries for building React components and managing the DOM.
-
-DevDependencies
-
-None specific to this project, but eslint or prettier can be added for linting and formatting.
-
 Step-by-Step Setup
 
-1. Install Dependencies
+1️⃣ Install Dependencies
 
-Run the following command to install required packages:
+Run the following command to install the required packages:
 
 npm install next next-intl react react-dom
 
-2. Configure next.config.mjs
+2️⃣ Configure Next.js for i18n
 
-The next.config.mjs file is used to define the supported locales and default locale for the application.
+Update next.config.mjs to define supported locales and a default locale:
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   i18n: {
-    locales: ["en", "tr"], // Supported locales
-    defaultLocale: "en",   // Default locale
+    locales: ["en", "tr"], // Supported languages
+    defaultLocale: "en",   // Default language
   },
 };
 
 export default nextConfig;
 
-3. Add Middleware for Locale Handling
+3️⃣ Add Middleware
 
-The middleware.js file ensures that requests are routed to the correct locale subpath.
+Middleware ensures proper routing for different locales.
+
+Create a file called src/middleware.js:
 
 import createMiddleware from "next-intl/middleware";
 
@@ -108,22 +70,12 @@ export default createMiddleware({
 });
 
 export const config = {
-  matcher: ["/((?!api|_next|.*\\..*).*)"], // Match all routes except API, static files, etc.
+  matcher: ["/((?!api|_next|.*\\..*).*)"], // Match all routes except API and static files
 };
 
-4. Create i18n.js
+4️⃣ Add Translation Files
 
-The i18n.js file initializes next-intl for retrieving translations dynamically.
-
-import { getMessages } from "next-intl/server";
-
-export async function getTranslations(locale) {
-  return await getMessages({ locale });
-}
-
-5. Add Translation Files
-
-Translation files are stored in the messages folder. Here’s an example of English and Turkish translations:
+Add JSON files for each locale in the messages folder:
 
 messages/en.json
 
@@ -151,9 +103,11 @@ messages/tr.json
   }
 }
 
-6. Add Navbar Component
+5️⃣ Create a Navbar Component
 
-The Navbar.js file provides a dynamic navigation menu that changes based on the selected locale.
+The navigation bar supports dynamic locale switching:
+
+components/Navbar.js:
 
 "use client";
 
@@ -172,9 +126,11 @@ export default function Navbar({ locale }) {
   );
 }
 
-7. Add Home Page
+6️⃣ Add Pages
 
-The page.js file in app/[locale]/ renders the home page dynamically based on the selected locale.
+Home Page
+
+app/[locale]/page.js:
 
 "use client";
 
@@ -190,11 +146,9 @@ export default function Home() {
   );
 }
 
-8. Add a Subpage (e.g., About Us)
+About Us Page
 
-To add an aboutUs page:
-	1.	Create a folder: app/[locale]/aboutUs/.
-	2.	Add page.js inside it:
+app/[locale]/aboutUs/page.js:
 
 "use client";
 
@@ -210,8 +164,9 @@ export default function AboutUs() {
   );
 }
 
+Add the following translation to messages/en.json and messages/tr.json:
 
-	3.	Update translation files:
+en.json:
 
 {
   "AboutPage": {
@@ -219,23 +174,36 @@ export default function AboutUs() {
   }
 }
 
-Running the Project
+tr.json:
 
-	1.	Development Server:
+{
+  "AboutPage": {
+    "title": "Hakkımızda"
+  }
+}
+
+7️⃣ Run the Project
+
+	•	Start the development server:
 
 npm run dev
 
-Open http://localhost:3000 to view the app.
 
-	2.	Build for Production:
+	•	Open http://localhost:3000 to view the project.
 
-npm run build
-npm start
+How It Works
+
+Feature	Description
+Dynamic Routing	/en, /tr, or any locale dynamically routes users to the correct language.
+Currency Formatting	You can format prices dynamically based on the locale using Intl.NumberFormat.
+Translation Support	Messages for UI components are fetched from locale-specific JSON files.
+
+Future Improvements
+
+	•	Add more locales (e.g., es, fr).
+	•	Implement currency and date formatting directly in components.
+	•	Add unit tests for translation files and locale functionality.
 
 Conclusion
 
-This project demonstrates a scalable approach to building a multi-language website using next-intl. The directory structure, middleware, and dynamic routing make it easy to maintain and expand as new features or locales are added. For further improvements, consider adding:
-	•	Unit tests for translation files.
-	•	Support for number and date formatting using Intl.NumberFormat.
-
-Feel free to fork this repository and adapt it to your needs. 😊
+This project demonstrates a scalable Next.js internationalization setup using next-intl. It supports multiple languages, dynamic routing, and locale-based formatting for a globalized user experience.
