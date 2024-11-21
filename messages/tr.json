@@ -1,0 +1,19 @@
+{
+  "NavbarLinks": {
+    "home": "Ana Sayfa",
+    "homeTitle": "Ana Sayfa Başlığı",
+    "about": "Hakkında",
+    "aboutTitle": "Hakkında Sayfası",
+    "profile": "Profil",
+    "profileTitle": "Profil Sayfası"
+  },
+  "HomePage": {
+    "title": "Açılış Sayfası"
+  },
+  "AboutPage": {
+    "title": "Hakkında"
+  },
+  "ProfilePage": {
+    "title": "Profil"
+  }
+}
