@@ -13,26 +13,29 @@ Directory Structure
 
 Here’s the structure of the project:
 
+
+Annotated Directory Structure
+
 .
-├── app
-│   ├── [locale]
-│   │   ├── aboutUs
-│   │   │   └── page.js
-│   │   ├── generateMetadata.js
-│   │   ├── layout.js
-│   │   └── page.js
-│   ├── globals.css
-│   └── page.module.css
-├── components
-│   └── Navbar.js
-├── messages
-│   ├── en.json
-│   └── tr.json
-├── src
-│   ├── i18n.js
-│   ├── middleware.js
-├── next.config.mjs
-└── README.md
+├── app                     # Main application folder
+│   ├── [locale]            # Locale-based dynamic routing
+│   │   ├── aboutUs         # About Us page folder
+│   │   │   └── page.js     # About Us page component
+│   │   ├── generateMetadata.js # Metadata generation for SEO
+│   │   ├── layout.js       # Shared layout for [locale]
+│   │   └── page.js         # Home page component
+│   ├── globals.css         # Global styles
+│   └── page.module.css     # Page-specific styles
+├── components              # Reusable UI components
+│   └── Navbar.js           # Navbar component
+├── messages                # Translation JSON files
+│   ├── en.json             # English translations
+│   └── tr.json             # Turkish translations
+├── src                     # Additional utilities and middleware
+│   ├── i18n.js             # Internationalization setup
+│   ├── middleware.js       # Middleware for locale handling
+├── next.config.mjs         # Next.js configuration
+└── README.md               # Documentation
 
 Step-by-Step Setup
 
