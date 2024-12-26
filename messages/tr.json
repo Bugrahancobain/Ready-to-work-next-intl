@@ -1,19 +1,232 @@
 {
+  "home": "Ana Sayfa",
+  "myprojects": "Projelerim",
+  "blog":"Blog",
+  "downloadmyfullresume": "ÖZGEÇMİŞİMİ İNDİR",
+  "bannerContext": "Tekstil Mühendisi | Front-end Geliştirici",
+  "aboutmeTitleTwoWorld": "HAK",
+  "aboutmeTitleOutherWorld": "KIMDA",
+  "aboutmefirstcontext": "Ben Buğrahan Çoban, 1997 doğumluyum ve İstanbul'da yaşıyorum. Uludağ Üniversitesi'ndeki eğitimimi 2016 yılında tamamladım ve eğitimim sırasında özellikle renk teknolojisi ve iletişim üzerine yoğunlaştım. Android Studio ile, kumaş renklerini ölçebilen ve müşteri ile anlık iletişim kurabilen bir mobil uygulama geliştirdim.",
+  "aboutmesecondcontext": "Üniversite eğitimim sonrasında Bursa'da Yeşim Tekstil'in örgü bölümünde ve Fistaş A.Ş.'de çalıştım. Fantazi Büküm bölümünde stajımı tamamladım. Şu anda 'Çobanoğlu Tekstil SAN. ve TİC. LTD. ŞTİ.' adlı kendi şirketimde yöneticilik yapmaktayım.",
+  "aboutmethirdcontext": "2023'ün sonlarına doğru çocukluğumdan beri ilgimi çeken yazılım dünyasına geri döndüm ve HTML, CSS, Sass, JavaScript, React ve TypeScript gibi teknolojileri öğrenerek kendimi geliştirdim.",
+  "aboutmefourthcontext": "Açık pozisyonlarınızı değerlendirmek, yenilikçi projelere katkıda bulunmak ve teknik bilgimi daha da geliştirmek isterim. CV'mi incelemek veya daha fazla bilgi almak için benimle iletişime geçmekten çekinmeyin. Saygılarımla.",
+  "educationTitleTwoWorld": "EĞ",
+  "educationTitleOutherWorld": "İTİM",
+  "educationFirstTitle": "Ataköy Anadolu Lisesi",
+  "educationFirstComment": "Ataköy Anadolu Lisesi, Sayısal bölümünden mezun oldum.",
+  "educationSecondTitle": "Bursa Uludağ Üniversitesi",
+  "educationSecondComment": "Bursa Uludağ Üniversitesi Tekstil Mühendisliği bölümünden mezun oldum.",
+  "educationThirdTitle": "Anadolu Üniversitesi",
+  "educationThirdComment": "Şu anda Anadolu Üniversitesi Laborant ve Veteriner Teknikleri bölümünde öğrenim görüyorum.",
+  "experienceTitleTwoWorld": "DE",
+  "experienceTitleOutherWorld": "NEYİM",
+  "experienceFirstTitle": "Stajyer Tekstil Mühendisi",
+  "experienceFirstBottomTitle": "2022 - Ağustos",
+  "experienceFirstComment": "Yeşim Tekstil'de 30 iş günü boyunca Düz Örgü ve Yuvarlak Örgü bölümünde stajyer olarak çalıştım.",
+  "experienceSecondTitle": "Stajyer Tekstil Mühendisi",
+  "experienceSecondBottomTitle": "2022 - Ekim",
+  "experienceSecondComment": "Fistaş A.Ş.'de Fantazi Büküm bölümünde 30 iş günü boyunca stajyer olarak çalıştım.",
+  "experienceThirdTitle": "Yönetici",
+  "experienceThirdBottomTitle": "2022 - ...",
+  "experienceThirdComment": "Çobanoğlu Tekstil'in Fantazi Büküm bölümünde yönetici olarak çalışmaktayım.",
+  "skillsTitleTwoWorld": "BEC",
+  "skillsTitleOutherWorld": "ERİLER",
+  "proficiendClass": "Uzman",
+  "advanced": "İleri",
+  "quickIdTitleTwoWorld": "HI",
+  "quickIdTitleOutherWorld": "ZLI KİMLİK",
+  "phone": "Telefon",
+  "email": "E-posta",
+  "address": "Adres",
+  "contactTitleTwoWorld": "İLE",
+  "contactTitleOutherWorld": "TİŞİM",
+  "name": "İsim",
+  "subject": "Konu",
+  "message": "Mesaj",
+  "submit": "Gönder",
+  "MyProjectBannerTitle": "Projelerim",
+  "status": "Durum",
+  "finished": "Tamamlandı",
+  "outOfRelease": "Yayınlanmadı",
+  "inProgress": "Devam Ediyor",
+  "release": "Yayınla",
+  "comingSoon": "Yakında",
+  "Explanation": "Açıklama",
+  "KaramansExplanation": "Uluslar arası ticaret yapan tekstil firması için dil kütüphanesi eklenerek özel yapıldı.",
+  "DoseCalculateExplanation": "Veteriner hekimler için tüm ilaçların hayvanlara doz hesabında kullanılması için geliştirildi.",
+  "CafeMenuProjectExplanation": "Cafeler için dinamik kategori ürün fiyat vb. düzenleyebilmesi için ayrı panel geliştirildi.",
+  "AdminPage": {
+    "header": "Yönetim Paneli",
+    "welcome": "Hoşgeldiniz",
+    "loading": "Yükleniyor...",
+    "redirecting": "Giriş sayfasına yönlendiriliyorsunuz..."
+  },
+  "AdminSidebar": {
+    "loading": "Yükleniyor...",
+    "services": "Hizmet Ayarları",
+    "references": "Referans Ayarları",
+    "blog": "Blog Ayarları",
+    "meeting": "Randevu Ayarları",
+    "logout": "Çıkış"
+  },
+  "FooterLinks": {
+    "office": "Ofis",
+    "address": "Beşiktaş / İstanbul",
+    "email": "info@bnb-works.com",
+    "phone": "+90(506) 156 63 64",
+    "links": "Bağlantılar",
+    "contactWithUs": "İletişime Geçin",
+    "rights": "© B&B WORKS {year}. TÜM HAKLARI SAKLIDIR.",
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "ourServices": "Hizmetlerimiz",
+    "references": "Referanslar",
+    "blog": "Blog",
+    "contact": "İletişim"
+  },
   "NavbarLinks": {
     "home": "Ana Sayfa",
-    "homeTitle": "Ana Sayfa Başlığı",
-    "about": "Hakkında",
-    "aboutTitle": "Hakkında Sayfası",
-    "profile": "Profil",
-    "profileTitle": "Profil Sayfası"
+      "about": "Hakkımızda",
+      "references": "Referanslarımız",
+      "blog": "Blog",
+      "ourServices": "Hizmetlerimiz",
+      "contact": "İletişim"
   },
   "HomePage": {
-    "title": "Açılış Sayfası"
+    "headerTitle": "Pazarlama için Doğru Sosyal Ağ",
+    "headerDescription": "İşletmenizle hedef kitleniz arasında güçlü bir bağ kurun.",
+    "aboutUs": "Hakkımızda",
+    "ourServicesTitle": "Hizmetlerimiz",
+    "ourServicesSubtitle": "Uzman SEO ve Pazarlama Hizmetleri Sunuyoruz",
+    "moreFeatures": "Tüm Özellikleri Keşfet",
+    "servicesSubtitle": "Uzmanlarımız Yardımcı Olmaya Hazır",
+    "servicesDescription": "Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+    "experience": "Deneyim",
+    "people": "Kişiler",
+    "aboutUsSubtitle": "Dijital Geleceği Geliştiriyor ve Yaratıyoruz",
+    "aboutUsDescription": "Adipiscing elit, sed do eiusmod tempor incididunt labore dolore magna aliqua. Ut enim ad minim veniam, quisq wiusmod ut tempor incididunt ut labore et dolore sed do magna aliqua.",
+    "contactEmail": "info@bnb-works.com",
+    "blogTitle": "Blogumuz",
+    "blogSubtitle": "Son Yazılar",
+    "viewAllArticles": "Tüm Yazıları Gör"
+  },
+  "ReferencesPage":{
+    "MyProjectBannerTitle": "Referans Listesi",
+    "company": "Şirket",
+    "sector": "Sektör",
+    "workingDate": "Çalışma Tarihi"
+},
+"ReferencesDetailsPage":{
+  "previousReference": "Önceki Referans",
+"nextReference": "Sonraki Referans",
+"sector": "Sektör",
+    "workingDate": "Çalışma Tarihi"
+},
+"OurServicesPage":{
+  "servicesHeader": "Hizmetler",
+  "ourServices": "Hizmetlerimiz",
+  "expertsReady": "Uzmanlarımız Yardımcı Olmaya Hazır",
+  "description": "Uzman ekibimiz, ihtiyaçlarınıza en uygun çözümleri sunmak için her zaman yanınızda. Hedeflerinize ulaşmanız için birlikte çalışıyoruz.",
+  "experience": "Deneyimler",
+  "people": "Kişiler",
+  "readMore": "Daha Fazla Oku",
+  "whoWeAre": "Biz Kimiz",
+  "discoverUs": "Daha Fazlasını Keşfedin"
+},
+"OurServicesDetailsPage":{
+  "loading": "Yükleniyor...",
+  "youMayAlsoLike": "Bunlarıda Beğenbebilirsiniz",
+  "previousService" :"Önceki Servis",
+  "nextService" :"Sonraki Servis"
+},
+"ContactPage": {
+    "header": "İletişim",
+    "openHoursTitle": "Çalışma Saatleri",
+    "weekdays": "Pazartesi-Cuma: 9:00 - 17:00",
+    "weekend": "Cumartesi-Pazar: Kapalı",
+    "addressTitle": "Adres",
+    "addressDetails": "Beşiktaş / İstanbul",
+    "checkLocation": "Konumu Kontrol Et",
+    "getInTouchTitle": "Bizimle İletişime Geçin",
+    "telephone": "Telefon: +90(506) 156 63 64",
+    "email": "E-posta: info@bnb-works.com",
+    "contactForm": "İletişim Formu",
+    "getInMeetTitle": "Toplantı Ayarla",
+    "getInMeetDetails": "Google Meet - Zoom",
+    "makeAppointment": "Randevu Ayarla",
+    "contactUsTitle": "Bize Ulaşın",
+    "contactUsSubtitle": "Sorularınız mı var? Bizimle iletişime geçin!",
+    "contactUsDescription": "Sorularınızı yanıtlamaktan memnuniyet duyarız. Size en iyi hizmeti sunmak için buradayız!",
+    "meetUsTitle": "Bize Ulaşın",
+    "meetUsSubtitle": "Daha detaylı mı görüşmek istiyorsunuz? Bizden randevu alın!",
+    "meetUsDescription": "Sizinle görüşmekten memnuniyet duyarız. Size en iyi hizmeti sunmak için buradayız!",
+    "contactInfoAddress": "Beşiktaş / İstanbul",
+    "contactInfoPhone": "+90(506) 156 63 64",
+    "contactInfoEmail": "info@bnb-works.com",
+    "formName": "Adınız",
+    "formEmail": "E-posta Adresi",
+    "formPhone": "Telefon",
+    "formSubject": "Konu",
+    "formMessage": "Size nasıl yardımcı olabiliriz? Lütfen bizimle iletişime geçmekten çekinmeyin!",
+    "formSubmit": "Bizimle İletişime Geçin",
+    "meetFormName": "Adınız",
+    "meetFormEmail": "E-posta",
+    "meetFormPhone": "Telefon Numarası",
+    "meetFormTopic": "Konu Başlığı",
+    "meetFormExtraInfo": "Ek Bilgiler (isteğe bağlı)",
+    "selectDate": "Tarih Seçin",
+    "selectTime": "Saat Seçin",
+    "meetFormSubmit": "Randevu Al"
+  },
+  "BlogPage": {
+    "header": "Blog Listesi",
+    "recentPosts": "Son Yazılar",
+    "readMore": "Devamını Oku",
+    "bannerAlt": "Reklam Görseli"
+  },
+  "BlogDetailPage": {
+    "header": "Bunları da Beğenebilirsiniz",
+    "previousPost": "Önceki Yazı",
+    "nextPost": "Sonraki Yazı",
+    "likeButton": "Beğen",
+    "shareButtons": {
+      "twitter": "Twitter'da Paylaş",
+      "facebook": "Facebook'ta Paylaş",
+      "email": "E-posta ile Paylaş",
+      "copyLink": "Bağlantıyı Kopyala"
+    }
   },
   "AboutPage": {
-    "title": "Hakkında"
-  },
-  "ProfilePage": {
-    "title": "Profil"
+    "header": "Hakkımızda",
+    "firstSection": {
+      "title": "Dijital İşinizi Büyütmenize Yardımcı Oluyoruz",
+      "subtitle": "İşletmenizin dijital dünyada büyümesi için yenilikçi çözümler sunuyoruz. Yaratıcı tasarımlar ve stratejilerle işinizi bir adım öteye taşıyoruz.",
+      "commitments": {
+        "creativeDesign": {
+          "title": "Yaratıcı Tasarım",
+          "description": "Özgün tasarımlarımızla markanızı öne çıkarıyoruz. Modern ve etkileyici çözümlerle fark yaratın."
+        },
+        "endlessPossibilities": {
+          "title": "Sonsuz Olanaklar",
+          "description": "Dijital dünyada sınırsız fırsatlar sunuyoruz. İşinizi büyütmek için yenilikçi araçlarla destek sağlıyoruz"
+        }
+      }
+    },
+    "secondSection": {
+      "header": "Kurumsal Hizmet",
+      "title": "Dijital Geleceği Geliştiriyoruz",
+      "subtitle": "Güveninizi takdir ediyoruz! Müşterilerimiz bizi ve ürünlerimizi seçiyor çünkü en iyisi olduğumuzu biliyorlar.",
+      "commitments": {
+        "possibilities": {
+          "number": "01.",
+          "title": "Sonsuz Olanaklar"
+        },
+        "optimization": {
+          "number": "02.",
+          "title": "Süreç Optimizasyonu"
+        }
+      },
+      "discoverNow": "Hemen Keşfet"
+    }
   }
 }

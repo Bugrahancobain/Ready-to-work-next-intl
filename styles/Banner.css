@@ -1,0 +1,74 @@
+.bannerImg {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+}
+
+.bannerCvBtn {
+  display: flex;
+    width: max-content;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.bannerCvBtn:hover {
+  color: black;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.bannerMain {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.bannerTitle,
+.bannerContext {
+  position: relative;
+  top: 35%;
+  color: white;
+  margin: 15px;
+}
+
+.bannerTitle {
+  font-size: 88px;
+  line-height: 1.2em;
+}
+
+.bannerContext {
+  font-size: 25px;
+  line-height: normal;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1281px) {
+  .bannerTitle {
+    font-size: 100px;
+  }
+  .bannerContext {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .bannerTitle {
+    font-size: 50px;
+  }
+  .bannerContext {
+    font-size: 20px;
+  }
+  .bannerCvBtn {
+    top: 30px;
+    right: 10%;
+    left: 10%;
+    text-align: center;
+  }
+}

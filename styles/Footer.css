@@ -1,0 +1,71 @@
+.footer {
+  background-color: #eceef5;
+  display: flex;
+  justify-content: space-evenly;
+  height: 150px;
+  align-items: center;
+}
+.footerCvBtn {
+  padding: 15px;
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.footerCvBtn:hover {
+  color: white;
+  border: 1px solid white;
+  background-color: black;
+}
+
+.iconClass {
+  color: black;
+  width: 30px;
+  margin: 7px;
+  transition-duration: 0.3s;
+  font-size: 30px;
+}
+.iconClass:hover {
+  transform: translateY(-5px);
+}
+
+.iconClass:visited {
+  color: black;
+}
+
+@media only screen and (max-width: 1281px) {
+  .footer {
+    flex-direction: column;
+    height: 300px;
+    gap: 10%;
+    padding: 50px;
+    font-size: x-large;
+  }
+  .iconClass {
+    width: 50px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .footer {
+    flex-direction: column;
+    height: 200px;
+    gap: 10%;
+    padding: 50px 0 0 0;
+    font-size: x-large;
+  }
+  .iconClass {
+    width: 50px;
+  }
+  .cv {
+    text-align: center;
+    width: 200px;
+    font-size: 11px;
+  }
+
+  .reserved {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,183 @@
+.experience {
+  background-color: rgb(237, 239, 245);
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+}
+
+.experienceTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10%;
+  margin-left: 200px;
+  margin-right: 420px;
+}
+.experienceTitle {
+  color: black;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.title2Word {
+  padding-bottom: 20px;
+  border-bottom: 8px solid rgb(223, 49, 67);
+}
+
+.experienceBottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-top: 10%;
+}
+
+.experienceFirstContext,
+.experienceSecondContext,
+.experienceThirdContext {
+  text-align: start;
+}
+
+.experienceFirstTitle,
+.experienceSecondTitle,
+.experienceThirdTitle {
+  font-size: 20px;
+}
+
+.experienceFirstBottomTitle,
+.experienceSecondBottomTitle,
+.experienceThirdBottomTitle {
+  font-size: 20px;
+  color: rgb(148, 163, 186);
+}
+
+.experienceFirstComment,
+.experienceSecondComment,
+.experienceThirdComment {
+  padding-top: 50px;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1281px) {
+  .experience {
+    height: max-content;
+    padding-bottom: 50px;
+  }
+  .experienceTop {
+    padding-top: 20%;
+    margin-left: 200px;
+  }
+  .experienceBottom {
+    flex-direction: column;
+    padding: 100px 100px 0 200px;
+    font-size: x-large;
+    margin-left: 0;
+    margin-right: 0;
+    gap: 50px;
+  }
+  .experienceFirstContext,
+  .experienceSecondContext,
+  .experienceThirdContext {
+    display: flex;
+    flex-direction: column;
+    padding-top: 7%;
+  }
+
+  .experienceFirstComment,
+  .experienceSecondComment,
+  .experienceThirdComment {
+    padding-top: 25px;
+  }
+  .experienceFirstBottomTitle,
+  .experienceSecondBottomTitle,
+  .experienceThirdBottomTitle {
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+
+  .experienceFirstTitle,
+  .experienceSecondTitle,
+  .experienceThirdTitle {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .experience {
+    height: max-content;
+    padding-bottom: 50px;
+  }
+  .experienceTop {
+    padding-top: 250px;
+    margin-left: 200px;
+  }
+  .experienceBottom {
+    flex-direction: column;
+    padding: 100px 50px 0 150px;
+    font-size: x-large;
+    margin-left: 0;
+    margin-right: 0;
+    gap: 50px;
+  }
+
+  .experienceFirstComment,
+  .experienceSecondComment,
+  .experienceThirdComment {
+    padding-top: 20px;
+  }
+  .experienceFirstBottomTitle,
+  .experienceSecondBottomTitle,
+  .experienceThirdBottomTitle {
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+
+  .experienceFirstTitle,
+  .experienceSecondTitle,
+  .experienceThirdTitle {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .experience {
+    height: max-content;
+    padding-bottom: 50px;
+  }
+  .experience {
+    background-color: rgb(237, 239, 245);
+  }
+  .experienceTop {
+    padding-top: 200px;
+    margin-left: calc(50% - 85px);
+  }
+  .experienceBottom {
+    flex-direction: column;
+    padding: 50px 25px 0 75px;
+    font-size: large;
+    margin-left: 0;
+    margin-right: 0;
+    gap: 50px;
+  }
+  .experienceTitle {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .experienceFirstComment,
+  .experienceSecondComment,
+  .experienceThirdComment {
+    padding-top: 20px;
+  }
+  .experienceFirstBottomTitle,
+  .experienceSecondBottomTitle,
+  .experienceThirdBottomTitle {
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+
+  .experienceFirstTitle,
+  .experienceSecondTitle,
+  .experienceThirdTitle {
+    font-size: 20px;
+  }
+}

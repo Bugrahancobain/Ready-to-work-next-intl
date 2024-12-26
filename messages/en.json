@@ -1,20 +1,232 @@
 {
-    "NavbarLinks": {
-      "home": "Home",
-      "homeTitle": "Home page",
-      "about": "About",
-      "aboutTitle": "About page",
-      "profile": "Profile",
-      "profileTitle": "Profile page"
+  "home": "Home",
+  "myprojects": "My Projects",
+  "blog":"Blog",
+  "downloadmyfullresume": "DOWNLOAD MY FULL RESUME",
+  "bannerContext": "Textile engineer | Front-end Developer",
+  "aboutmeTitleTwoWorld": "AB",
+  "aboutmeTitleOutherWorld": "OUT ME",
+  "aboutmefirstcontext": "I am Buğrahan Çoban, I was born in 1997 and I live in Istanbul. I completed my formal education at Uludağ University in 2016 and during my education, I particularly focused on color technology and communication. Using Android Studio, I developed a mobile application that can measure fabric colors and provide real-time communication with the customer.",
+  "aboutmesecondcontext": "After my university education, I worked at Bursa Yeşim Textile Knitting Department and Bursa Fistaş A.Ş. I completed my internship  at the Fantasy Twisting Department. Currently, I have my own company 'Çobanoğlu Tekstil SAN. ve TİC. LTD. ŞTİ.' I work as a Manager within the company.",
+  "aboutmethirdcontext": "Towards the end of 2023, I returned to the software world that I have been interested in since my childhood and improved myself by learning technologies such as HTML, CSS, Sass, JavaScript, React, TypeScript with my own efforts.",
+  "aboutmefourthcontext": "I would like to evaluate your open positions in order to contribute to innovative projects and further my technical knowledge. Please do not hesitate to contact me to review my CV or get more detailed information. Kind regards.",
+  "educationTitleTwoWorld": "ED",
+  "educationTitleOutherWorld": "UCATION",
+  "educationFirstTitle": "Ataköy Anadolu High School",
+  "educationFirstComment": "I graduated from Ataköy Anadolu High School, Department of Numerical",
+  "educationSecondTitle": "Bursa Uludağ University",
+  "educationSecondComment": "I graduated from Bursa Uludag University, Department of Textile Engineering.",
+  "educationThirdTitle": "Anadolu University",
+  "educationThirdComment": "I am currently studying Laboratory and Veterinary Technician Department at Anadolu University.",
+  "experienceTitleTwoWorld": "EX",
+  "experienceTitleOutherWorld": "PERİENCE",
+  "experienceFirstTitle": "Trainee Textile Engineer",
+  "experienceFirstBottomTitle": "2022 - August",
+  "experienceFirstComment": "I worked as an intern engineer for 30 working days in the Flat and Circular Knitting Department of Yeşim Textile.",
+  "experienceSecondTitle": "Trainee Textile Engineer",
+  "experienceSecondBottomTitle": "2022 - October",
+  "experienceSecondComment": "Fistaş A.S. I worked as a trainee engineer for 30 working days in the Fancy Twisting Department of the company.",
+  "experienceThirdTitle": "Manager",
+  "experienceThirdBottomTitle": "2022 - ...",
+  "experienceThirdComment": "I work as a manager in the Fancy Twisting Department of Çobanoğlu Tekstil.",
+  "skillsTitleTwoWorld": "SK",
+  "skillsTitleOutherWorld": "ILLS",
+  "proficiendClass": "proficiend",
+  "advanced": "Advanced",
+  "quickIdTitleTwoWorld": "QU",
+  "quickIdTitleOutherWorld": "ICK ID",
+  "phone": "Phone",
+  "email": "Email",
+  "address": "Address",
+  "contactTitleTwoWorld": "CO",
+  "contactTitleOutherWorld": "NTACT ME",
+  "name": "Name",
+  "subject": "Subject",
+  "message": "Message",
+  "submit": "Submit",
+  "MyProjectBannerTitle": "My Projects",
+  "status": "Status",
+  "finished": "Finished",
+  "outOfRelease": "Out of Release",
+  "inProgress": "In Progress",
+  "release": "Release",
+  "comingSoon": "Coming Soon",
+  "Explanation": "Explanation",
+  "KaramansExplanation": "Custom-made for a textile company engaged in international trade by adding a language library.",
+  "DoseCalculateExplanation": "Developed for veterinarians to use in calculating the dosage of all medications for animals.",
+  "CafeMenuProjectExplanation": "A separate panel developed to manage dynamic categories, products, prices, etc., for cafés.",
+  "AdminPage": {
+    "header": "Admin Panel",
+    "welcome": "Welcome",
+    "loading": "Loading...",
+    "redirecting": "Redirecting to the login page..."
+  },
+  "AdminSidebar": {
+    "loading": "Loading...",
+    "services": "Service Settings",
+    "references": "Reference Settings",
+    "blog": "Blog Settings",
+    "meeting": "Appointment Settings",
+    "logout": "Logout"
+  },
+  "FooterLinks": {
+    "office": "Office",
+    "address": "Beşiktaş / Istanbul",
+    "email": "info@bnb-works.com",
+    "phone": "+90(506) 156 63 64",
+    "links": "Links",
+    "contactWithUs": "Get in Touch",
+    "rights": "© B&B WORKS {year}. ALL RIGHTS RESERVED.",
+    "home": "Home",
+    "about": "About Us",
+    "ourServices": "Our Services",
+    "references": "References",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "NavbarLinks": {
+    "home": "Home",
+    "about": "About Us",
+    "references": "References",
+    "blog": "Blog",
+    "ourServices": "Our Services",
+    "contact": "Contact"
+  },
+  "HomePage": {
+    "headerTitle": "The Right Social Network for Marketing",
+    "headerDescription": "Build a strong bond between your business and your target audience.",
+    "aboutUs": "About Us",
+    "ourServicesTitle": "Our Services",
+    "ourServicesSubtitle": "We Provide Expert SEO and Marketing Services",
+    "moreFeatures": "Discover All Features",
+    "servicesSubtitle": "Our Experts Are Ready to Assist",
+    "servicesDescription": "Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+    "experience": "Experience",
+    "people": "People",
+    "aboutUsSubtitle": "Creating and Developing the Digital Future",
+    "aboutUsDescription": "Adipiscing elit, sed do eiusmod tempor incididunt labore dolore magna aliqua. Ut enim ad minim veniam, quisq wiusmod ut tempor incididunt ut labore et dolore sed do magna aliqua.",
+    "contactEmail": "info@bnb-works.com",
+    "blogTitle": "Our Blog",
+    "blogSubtitle": "Latest Posts",
+    "viewAllArticles": "View All Articles"
+  },
+  "ReferencesPage": {
+    "MyProjectBannerTitle": "Reference List",
+    "company": "Company",
+    "sector": "Sector",
+    "workingDate": "Working Date"
+  },
+  "ReferencesDetailsPage": {
+    "previousReference": "Previous Reference",
+    "nextReference": "Next Reference",
+    "sector": "Sector",
+    "workingDate": "Working Date"
+  },
+  "OurServicesPage": {
+    "servicesHeader": "Services",
+    "ourServices": "Our Services",
+    "expertsReady": "Our Experts Are Ready to Assist",
+    "description": "Our expert team is always here to provide the most suitable solutions for your needs. We work together to achieve your goals.",
+    "experience": "Experiences",
+    "people": "People",
+    "readMore": "Read More",
+    "whoWeAre": "Who We Are",
+    "discoverUs": "Discover More"
+  },
+  "OurServicesDetailsPage": {
+    "loading": "Loading...",
+    "youMayAlsoLike": "You May Also Like",
+    "previousService": "Previous Service",
+    "nextService": "Next Service"
+  },
+  "ContactPage": {
+    "header": "Contact",
+    "openHoursTitle": "Working Hours",
+    "weekdays": "Monday-Friday: 9:00 AM - 5:00 PM",
+    "weekend": "Saturday-Sunday: Closed",
+    "addressTitle": "Address",
+    "addressDetails": "Beşiktaş / Istanbul",
+    "checkLocation": "Check Location",
+    "getInTouchTitle": "Get in Touch",
+    "telephone": "Phone: +90(506) 156 63 64",
+    "email": "Email: info@bnb-works.com",
+    "contactForm": "Contact Form",
+    "getInMeetTitle": "Schedule a Meeting",
+    "getInMeetDetails": "Google Meet - Zoom",
+    "makeAppointment": "Make an Appointment",
+    "contactUsTitle": "Contact Us",
+    "contactUsSubtitle": "Have Questions? Get in Touch!",
+    "contactUsDescription": "We are happy to answer your questions. We are here to provide you with the best service!",
+    "meetUsTitle": "Contact Us",
+    "meetUsSubtitle": "Want to discuss in more detail? Book an appointment with us!",
+    "meetUsDescription": "We would be happy to meet you. We are here to provide the best service!",
+    "contactInfoAddress": "Beşiktaş / Istanbul",
+    "contactInfoPhone": "+90(506) 156 63 64",
+    "contactInfoEmail": "info@bnb-works.com",
+    "formName": "Your Name",
+    "formEmail": "Email Address",
+    "formPhone": "Phone",
+    "formSubject": "Subject",
+    "formMessage": "How can we help you? Feel free to get in touch!",
+    "formSubmit": "Contact Us",
+    "meetFormName": "Your Name",
+    "meetFormEmail": "Email",
+    "meetFormPhone": "Phone Number",
+    "meetFormTopic": "Subject",
+    "meetFormExtraInfo": "Additional Information (optional)",
+    "selectDate": "Select Date",
+    "selectTime": "Select Time",
+    "meetFormSubmit": "Make an Appointment"
+  },
+  "BlogPage": {
+    "header": "Blog List",
+    "recentPosts": "Recent Posts",
+    "readMore": "Read More",
+    "bannerAlt": "Ad Banner"
+  },
+  "BlogDetailPage": {
+    "header": "You May Also Like",
+    "previousPost": "Previous Post",
+    "nextPost": "Next Post",
+    "likeButton": "Like",
+    "shareButtons": {
+      "twitter": "Share on Twitter",
+      "facebook": "Share on Facebook",
+      "email": "Share via Email",
+      "copyLink": "Copy Link"
+    }
+  },
+  "AboutPage": {
+    "header": "About Us",
+    "firstSection": {
+      "title": "We Help Grow Your Digital Business",
+      "subtitle": "We offer innovative solutions to help your business grow in the digital world. Stand out with creative designs and strategies.",
+      "commitments": {
+        "creativeDesign": {
+          "title": "Creative Design",
+          "description": "We bring your brand to the forefront with our unique designs. Make a difference with modern and impactful solutions."
+        },
+        "endlessPossibilities": {
+          "title": "Endless Possibilities",
+          "description": "We offer limitless opportunities in the digital world. Supporting your business growth with innovative tools."
+        }
+      }
     },
-    "HomePage": {
-      "title": "Landing page"
-    },
-    "AboutPage": {
-      "title": "About"
-    },
-    "ProfilePage": {
-      "title": "Profile"
+    "secondSection": {
+      "header": "Corporate Service",
+      "title": "Developing the Digital Future",
+      "subtitle": "We appreciate your trust! Our clients choose us and our products because they know we are the best.",
+      "commitments": {
+        "possibilities": {
+          "number": "01.",
+          "title": "Endless Possibilities"
+        },
+        "optimization": {
+          "number": "02.",
+          "title": "Process Optimization"
+        }
+      },
+      "discoverNow": "Discover Now"
     }
   }
-  
+}

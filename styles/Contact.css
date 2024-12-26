@@ -1,0 +1,244 @@
+.contact {
+  display: flex;
+}
+
+.quickId {
+  background-color: #2f4875;
+  height: 100vh;
+  width: 50%;
+  text-align: left;
+}
+
+.quickIdTop,
+.contactMeTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 90px;
+  margin-right: 210px;
+  padding-top: 20%;
+}
+.quickIdTitle {
+  color: white;
+  font-size: 38px;
+  font-weight: bold;
+  padding-top: 25px;
+}
+
+.title2Word,
+.title2Word {
+  padding-bottom: 20px;
+  border-bottom: 8px solid rgb(223, 49, 67);
+}
+
+.titleOtherWord,
+.titleOtherWord {
+  width: 49vw;
+}
+
+.quickIdBottom {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 75px;
+}
+
+.titles,
+.contexts {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding-left: 15px;
+}
+
+span {
+  margin-bottom: 20px;
+}
+.contactMe {
+  background-color: #bbc9dc;
+  width: 50vw;
+}
+
+.contactMeTitle {
+  color: black;
+  font-size: 38px;
+  font-weight: bold;
+  padding-top: 25px;
+}
+
+.formMain {
+  height: 50vh;
+  padding: 7% 9%;
+}
+
+.formObjects {
+  display: flex;
+  gap: 75px;
+  padding-bottom: 50px;
+}
+
+.formTitles {
+  padding: 2px;
+  font-size: 20px;
+}
+
+.formInput {
+  margin-top: 10px;
+  padding: 12px 20px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 12px;
+  width: 100%;
+}
+
+.formTextArea {
+  margin-top: 10px;
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+.formSubmitBtn {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.15625rem;
+  line-height: 13px;
+  padding: 1.25rem 2.1875rem 1.125rem;
+  align-self: flex-start;
+  transition: background-color 0.25s ease;
+  margin-top: 3.125rem;
+  background-color: #dedede;
+  border: 1px solid #dedede;
+  color: #464646;
+  cursor: pointer;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1281px) {
+  .contact {
+    flex-direction: column;
+  }
+  .skillsTitle {
+    color: white;
+  }
+  .quickId {
+    height: max-content;
+    padding-bottom: 50px;
+    width: 100%;
+  }
+  .contactMe {
+    height: 120vh;
+    padding-bottom: 50px;
+    width: 100%;
+  }
+  .quickIdBottom {
+    font-size: x-large;
+    padding: 60px 75px 50px 45px;
+  }
+  .contactMeTop {
+    padding-top: 10%;
+  }
+  .formMain {
+    font-size: xx-large;
+    padding: 7% 8%;
+  }
+  .formTextArea {
+    width: 94%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .contact {
+    flex-direction: column;
+  }
+  .skillsTitle {
+    color: white;
+  }
+  .quickId,
+  .contactMe {
+    height: 120vh;
+    width: 100%;
+  }
+  .quickIdBottom {
+    font-size: x-large;
+    padding: 60px 75px 50px 45px;
+  }
+  .contactMeTop {
+    padding-top: 10%;
+  }
+  .formMain {
+    font-size: xx-large;
+    padding: 7% 8%;
+  }
+  .formObjects {
+    gap: 20px;
+  }
+  .formTextArea {
+    width: 94%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .contact {
+    flex-direction: column;
+  }
+  .quickId {
+    height: fit-content;
+    width: 100%;
+  }
+  .contactMe {
+    height: 110vh;
+    width: 100%;
+    text-align: center;
+  }
+  .quickIdTop,
+  .contactMeTop {
+    margin-right: 0px;
+  }
+  .quickIdTitle,
+  .contactMeTitle {
+    font-size: 28px;
+  }
+  .quickIdBottom {
+    font-size: medium;
+    padding: 60px 75px 50px 45px;
+  }
+  .contactMeTop {
+    padding-top: 10%;
+  }
+  .formMain {
+    font-size: xx-large;
+    padding: 7% 8%;
+  }
+  .formObjects {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+  }
+  .formObject {
+    display: flex;
+    flex-direction: column;
+  }
+  .formTitles {
+    margin-bottom: 0px;
+  }
+  .formTextArea {
+    width: 94%;
+    height: max-content;
+  }
+  .formSubmitBtn {
+    margin-top: 10px;
+  }
+}

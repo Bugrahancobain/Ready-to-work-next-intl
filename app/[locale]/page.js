@@ -1,11 +1,18 @@
 "use client";
 import { useTranslations } from "next-intl";
-
+import React from "react";
+import Banner from "../../components/Banner";
+import Me from "../../components/Me";
+import Skills from "../../components/Skills";
+import Contact from "../../components/Contact";
 export default function Home() {
-  const t = useTranslations("NavbarLinks");
+  const t = useTranslations();
   return (
     <div>
-      <h1>{t("homeTitle")}</h1>
+      <Banner />
+      <Me />
+      <Skills />
+      <Contact />
     </div>
   );
 }

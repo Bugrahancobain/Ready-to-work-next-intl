@@ -1,0 +1,181 @@
+.education {
+  background-color: rgb(237, 239, 245);
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+}
+
+.educationTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10%;
+  margin-left: 200px;
+  margin-right: 420px;
+}
+.educationTitle {
+  color: black;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.title2Word {
+  padding-bottom: 20px;
+  border-bottom: 8px solid rgb(223, 49, 67);
+}
+
+.educationBottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-top: 10%;
+}
+
+.educationFirstContext,
+.educationSecondContext,
+.educationThirdContext {
+  text-align: start;
+}
+
+.educationFirstTitle,
+.educationSecondTitle,
+.educationThirdTitle {
+  font-size: 20px;
+}
+
+.educationFirstBottomTitle,
+.educationSecondBottomTitle,
+.educationThirdBottomTitle {
+  font-size: 20px;
+  color: rgb(148, 163, 186);
+}
+
+.educationFirstComment,
+.educationSecondComment,
+.educationThirdComment {
+  padding-top: 50px;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1281px) {
+  .education {
+    height: max-content;
+    padding-bottom: 50px;
+  }
+  .educationTop {
+    padding-top: 20%;
+    margin-left: 200px;
+  }
+  .educationBottom {
+    flex-direction: column;
+    padding: 100px 100px 0 200px;
+    font-size: x-large;
+    margin-left: 0;
+    margin-right: 0;
+    gap: 50px;
+  }
+  .educationFirstContext,
+  .educationSecondContext,
+  .educationThirdContext {
+    display: flex;
+    flex-direction: column;
+    padding-top: 7%;
+  }
+
+  .educationFirstComment,
+  .educationSecondComment,
+  .educationThirdComment {
+    padding-top: 25px;
+  }
+  .educationFirstBottomTitle,
+  .educationSecondBottomTitle,
+  .educationThirdBottomTitle {
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+
+  .educationFirstTitle,
+  .educationSecondTitle,
+  .educationThirdTitle {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .education {
+    height: max-content;
+    padding-bottom: 50px;
+  }
+  .educationTop {
+    padding-top: 250px;
+    margin-left: 200px;
+  }
+  .educationBottom {
+    flex-direction: column;
+    padding: 100px 50px 0 150px;
+    font-size: x-large;
+    margin-left: 0;
+    margin-right: 0;
+    gap: 50px;
+  }
+
+  .educationFirstComment,
+  .educationSecondComment,
+  .educationThirdComment {
+    padding-top: 20px;
+  }
+  .educationFirstBottomTitle,
+  .educationSecondBottomTitle,
+  .educationThirdBottomTitle {
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+
+  .educationFirstTitle,
+  .educationSecondTitle,
+  .educationThirdTitle {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .education {
+    height: max-content;
+    padding-bottom: 50px;
+  }
+  .educationTop {
+    padding-top: 200px;
+    margin-left: calc(50% - 85px);
+  }
+  .educationBottom {
+    flex-direction: column;
+    padding: 50px 25px 0 75px;
+    font-size: large;
+    margin-left: 0;
+    margin-right: 0;
+    gap: 50px;
+  }
+  .educationTitle {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .educationFirstComment,
+  .educationSecondComment,
+  .educationThirdComment {
+    padding-top: 20px;
+  }
+  .educationFirstBottomTitle,
+  .educationSecondBottomTitle,
+  .educationThirdBottomTitle {
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+
+  .educationFirstTitle,
+  .educationSecondTitle,
+  .educationThirdTitle {
+    font-size: 20px;
+  }
+}

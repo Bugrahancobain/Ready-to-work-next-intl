@@ -1,0 +1,148 @@
+.aboutMe {
+  background-color: rgb(237, 239, 245);
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+}
+
+.aboutTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10%;
+  margin-left: 200px;
+  margin-right: 420px;
+}
+.aboutMeTitle {
+  color: black;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.title2Word {
+  padding-bottom: 20px;
+  border-bottom: 8px solid rgb(223, 49, 67);
+}
+
+.iconClass {
+  color: black;
+  width: 30px;
+  margin: 7px;
+}
+.iconClass:visited {
+  color: black;
+}
+
+.aboutBottom {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: start;
+  padding-top: 5%;
+  padding: 5% 200px 0 200px;
+}
+
+.bottomleft,
+.bottomRight {
+  display: flex;
+  flex-direction: column;
+  padding-right: 10%;
+}
+
+.firstContext {
+  padding-bottom: 20px;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1281px) {
+  .aboutMe {
+    height: max-content;
+    padding-bottom: 50px;
+  }
+  .aboutTop {
+    padding-top: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  .aboutBottom {
+    flex-direction: column;
+    padding: 50px 100px 0 200px;
+    font-size: x-large;
+  }
+  .bottomleft,
+  .bottomRight {
+    padding-top: 7%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .aboutMe {
+    height: max-content;
+    padding-bottom: 50px;
+  }
+  .aboutTop {
+    padding-top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .aboutBottom {
+    flex-direction: column;
+    padding: 50px 50px 0 100px;
+    font-size: large;
+  }
+  .bottomleft,
+  .bottomRight {
+    padding-top: 7%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .aboutMe {
+    height: max-content;
+    padding-bottom: 50px;
+  }
+  .aboutTop {
+    padding-top: 30%;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .aboutBottom {
+    flex-direction: column;
+    padding: 100px 50px 0 100px;
+    font-size: large;
+  }
+  .bottomleft,
+  .bottomRight {
+    padding-top: 7%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .aboutMe {
+    height: max-content;
+    padding-bottom: 50px;
+  }
+  .aboutTop {
+    padding-top: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+  .title2Word {
+    padding-bottom: 10px !important;
+  }
+  .aboutBottom {
+    flex-direction: column;
+    padding: 50px 25px 0 50px;
+    font-size: medium;
+  }
+  .aboutMeTitle {
+    font-size: larger !important;
+  }
+  .iconClass {
+    width: 50px;
+  }
+  .bottomleft,
+  .bottomRight {
+    padding-top: 7%;
+  }
+}
